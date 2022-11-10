@@ -100,6 +100,6 @@ elif random_number == 9:
         9
         9
         ''')
-
 print(name, 'asks: ', question)
 print(answer)
+#print(answer)
