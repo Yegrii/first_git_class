@@ -1,7 +1,7 @@
 import random
 random_number = random.randint(1, 9)
-name = 'Yego'
-question = 'Do we need to end it?'
+name = input('Input your name here: ')
+question = input('Input your question here: ')
 answer = ''
 
 if random_number == 1:
@@ -58,7 +58,7 @@ elif random_number == 4:
     44444
         4
         4
-        ''')
+    ''')
 elif random_number == 5:
     print('''
     55555
@@ -83,7 +83,7 @@ elif random_number == 7:
       7
       7
       7
-       ''')
+    ''')
 elif random_number == 8:
     print('''
     88888
@@ -99,7 +99,7 @@ elif random_number == 9:
     99999
         9
         9
-        ''')
+      ''')
 print(name, 'asks: ', question)
 print(answer)
 #print(answer)
