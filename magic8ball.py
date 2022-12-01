@@ -106,4 +106,3 @@ def magic8game():
         ''')
     return f'{name} asks: {question} \n {answer}'
 print(magic8game())
-
