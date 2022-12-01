@@ -5,7 +5,6 @@ name = input('Input your name here: ')
 question: str = input('Input your question here: ')
 answer = ''
 
-
 def magic8game():
     global name, question, answer
 
